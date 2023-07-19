@@ -4,7 +4,7 @@ Optional type for Golang
 
 
 ## Usage
-```
+```go
 import (
 	"context"
 
