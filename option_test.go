@@ -128,7 +128,7 @@ func TestMarshalJSON(t *testing.T) {
 		s := None[int]()
 		json, err := s.MarshalJSON()
 		assert.Empty(t, err)
-		assert.Empty(t, json)
+		assert.JSONEq(t, string(json), "null")
 	})
 
 	t.Run("Complex Type with none value", func(t *testing.T) {

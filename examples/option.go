@@ -1,10 +1,5 @@
-# go-option
-Optional type for Golang 
+package examples
 
-
-
-## Usage
-```
 import (
 	"context"
 
@@ -36,4 +31,3 @@ func main() {
 		Value: "4321",
 	})
 }
-```
